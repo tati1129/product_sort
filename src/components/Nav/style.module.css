@@ -1,0 +1,27 @@
+.nav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #34495E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.nav a{
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+.nav .active{
+    font-weight: 600;
+    font-size: 28px;
+    color: rgb(180, 243, 243);
+    
+}

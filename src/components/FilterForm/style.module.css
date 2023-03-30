@@ -1,0 +1,121 @@
+.container{
+    width: 100%;
+    height: 200px;
+    background: #34495E;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.form{
+    margin-top: 38px;
+    margin-left: 82px;
+    display: flex;
+    
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 95px;
+}
+.input{
+    width: 510px;
+    height: 50px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+input::placeholder{
+    padding-left: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.btn{
+    width: 510px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    background: #27AE60;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn:active{
+    background: #12733a;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 82px;
+    margin-bottom: 40px;
+}
+.select{
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+    gap: 45px;
+}
+.select input{
+    width: 479px;
+    height: 50px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.select input::placeholder{
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.option{
+    margin-left: 20px;
+    width: 152px;
+    height:  50px;
+    background: #D9D9D9;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.label{
+   width: 425px;
+   height: 36px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 30px;
+   display: flex;
+   align-items: center;
+   color: #FFFFFF;
+}
